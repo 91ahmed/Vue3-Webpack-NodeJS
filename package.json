@@ -1,0 +1,29 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "test webpack",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production --watch",
+    "serve": "node app.js"
+  },
+  "author": "ahmedhassan",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.1.0",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.37",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "pug": "^3.0.2",
+    "session-file-store": "^1.5.0",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3"
+  }
+}

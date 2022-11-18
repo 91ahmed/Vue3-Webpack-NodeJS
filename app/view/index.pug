@@ -1,0 +1,11 @@
+extends master.pug
+
+block content
+	div(id='app')
+		router-view
+		router-link(to='/')
+			| Home
+		router-link(to='/login')
+			| Login
+		router-link(to='/register')
+			| Register

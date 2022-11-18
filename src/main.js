@@ -1,0 +1,1 @@
+import '@/src/vue-routes/router.js';
